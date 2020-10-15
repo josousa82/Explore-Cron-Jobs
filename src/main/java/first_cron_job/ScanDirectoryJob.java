@@ -1,7 +1,9 @@
 package first_cron_job;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
+
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.quartz.*;
 
 import java.io.File;
@@ -13,9 +15,9 @@ import java.util.Objects;
  * Created by sousaJ on 15/10/2020
  * in package - first_cron_job
  **/
-
-public class TestJob implements Job {
-static Log log = LogFactory.getLog(TestJob.class);
+@Slf4j
+public class ScanDirectoryJob implements Job {
+//    static Logger log = LogManager.getLogger(ScanDirectoryJob.class);
     @Override
     public void execute(JobExecutionContext jobExecutionContext) throws JobExecutionException {
         JobDetail jobDetail = jobExecutionContext.getJobDetail();

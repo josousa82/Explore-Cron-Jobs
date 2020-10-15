@@ -20,3 +20,4 @@ public class FileExtensionFileFilter implements FileFilter {
         return file.isFile() && (file.getName().toLowerCase().indexOf(extension) > 0);
     }
 }
+
