@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration>
 
-    <!-- Define custom levels before using them for filtering below. -->
-    <!--    <CustomLevels>-->
-    <!--        <CustomLevel name="DIAG" intLevel="350" />-->
-    <!--        <CustomLevel name="NOTICE" intLevel="450" />-->
-    <!--        <CustomLevel name="VERBOSE" intLevel="550" />-->
-    <!--    </CustomLevels>-->
+     Define custom levels before using them for filtering below.
+        <CustomLevels>
+            <CustomLevel name="NOTICE" intLevel="450" />
+        </CustomLevels>
 
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
