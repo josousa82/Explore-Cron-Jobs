@@ -40,5 +40,28 @@ public class SimpleScheduler {
         }catch (SchedulerException e){
             log.warn(e.toString());
         }
+//        // standby, do something and then start
+//        try{
+//            if(!scheduler.isInStandbyMode()) {
+//                scheduler.standby();
+//            }
+//
+//            // do something
+//            scheduler.start();
+//        } catch (SchedulerException e) {
+//            log.error(e.toString());
+//        }
+
+    }
+
+    public void modifyScheduler(){
+
     }
 }
+
+
+
+
+
+
+

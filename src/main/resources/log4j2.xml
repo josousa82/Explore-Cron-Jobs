@@ -34,7 +34,7 @@
     <Loggers>
         <!-- LOG everything at INFO level -->
         <Root level="all">
-            <AppenderRef ref="Console"/>
+            <AppenderRef ref="Console" />
             <AppenderRef ref="RollingFile"/>
             <!--            <AppenderRef ref="Console" level="diag" />-->
             <!--            <AppenderRef ref="MyFile" level="trace" />-->

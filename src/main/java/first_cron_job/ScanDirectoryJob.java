@@ -24,14 +24,15 @@ public class ScanDirectoryJob implements Job {
 
         String jobName = jobDetail.getDescription();
         log.info(jobName + " fired up " + new Date());
+
         JobDataMap jobDataMap = jobDetail.getJobDataMap();
         String dirName = jobDataMap.getString("SCAN_DIR");
-
+            log.warn("----------------DIRECTORY NAME " + dirName);
         if(Objects.isNull(dirName)) throw new JobExecutionException("Directory not configured");
 
         File dir = new File(dirName);
 
-        if(!dir.exists()) throw new JobExecutionException("Invalid dir" + dirName);
+        if(!dir.exists()) throw new JobExecutionException("Invalid dir " + dirName);
 
         FileFilter fileFilter = new FileExtensionFileFilter(".xml");
 
