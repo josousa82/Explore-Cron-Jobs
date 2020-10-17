@@ -5,8 +5,8 @@ One Paragraph of project description goes here
 ### Build Status
 
 #### Code Quality
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/af86057ff23540c09fa7a74c05525c29)](https://app.codacy.com/gh/josousa82/Explore-Cron-Jobs?utm_source=github.com&utm_medium=referral&utm_content=josousa82/Explore-Cron-Jobs&utm_campaign=Badge_Grade)
-* [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4c04b09260a4462da1efd8abd560d74b)](https://www.codacy.com/manual/josousa82/Explore-Cron-Jobs/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=josousa82/Explore-Cron-Jobs&amp;utm_campaign=Badge_Grade)
+
+* [![Codacy Badge](https://api.codacy.com/project/badge/Grade/af86057ff23540c09fa7a74c05525c29)](https://app.codacy.com/gh/josousa82/Explore-Cron-Jobs?utm_source=github.com&utm_medium=referral&utm_content=josousa82/Explore-Cron-Jobs&utm_campaign=Badge_Grade)
 
 #### CircleCI
 * [![<CircleCI>](https://circleci.com/gh/josousa82/Explore-Cron-Jobs.svg?style=shield)](https://circleci.com/gh/josousa82/Explore-Cron-Jobs)
